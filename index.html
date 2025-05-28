@@ -7,7 +7,13 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <label for="pokemonName"></label>
+      <input type="text" id="pokemonName" placeholder="Enter Pokemon name"/>
+      <button onclick="fetchData()">Fetch Pokemon</button>
+      <br>
+      <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none">
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
